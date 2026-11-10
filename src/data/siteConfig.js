@@ -2,7 +2,7 @@ export const siteConfig = {
   nombre: "Evelyn Marquez",
   especialidad: "Fisioterapeuta - linfodrenajista.",
   tagline: "Un Lugar donde el *amor* se siente en cada técnica y el *bienestar* cuida el ritmo de tu cuerpo.",
-  taglineCita: "Solicita aquí tu consulta, haz click para empezar.",
+  taglineCita: "Solicita aquí tu consulta.",
   whatsapp: "573167452344", // formato internacional, sin + ni espacios
   whatsappMensajeGeneral:
     "Hola, vengo desde su página web y quisiera más información.",
