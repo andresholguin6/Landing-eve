@@ -24,7 +24,7 @@ export default function Footer() {
           {/* Columna izquierda: texto y contacto */}
           <div className="max-w-lg text-white">
             <h2 className="font-eslogan-2 text-3xl md:text-4xl font-normal">
-              ¿Lista para empezar?
+              ¿Empezamos?
             </h2>
             <p className="font-eslogan-2 mt-3 text-gray-200">
               Escríbeme y con gusto te acompaño en tu proceso.
