@@ -7,7 +7,10 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer id="contacto" className="relative w-full min-h-112.5 overflow-hidden">
+    <footer
+      id="contacto"
+      className="relative w-full min-h-112.5 overflow-hidden"
+    >
       {/* Foto de fondo */}
       <img
         src="/images/Footer (2).webp"
@@ -36,10 +39,17 @@ export default function Footer() {
               </WhatsAppButton>
             </div>
 
-            <p className="font-eslogan-2 mt-8 flex items-center gap-2 text-sm text-gray-200">
+            <a
+              href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+                siteConfig.ubicacion
+              )}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-eslogan-2 mt-8 flex items-center gap-2 text-sm text-gray-200 hover:underline"
+            >
               <MapPin className="w-4 h-4" strokeWidth={1.8} />
-              {siteConfig.ubicacion}
-            </p>
+              Ver ubicación
+            </a>
 
             {/* Redes sociales */}
             <div className="mt-6 flex gap-4">
